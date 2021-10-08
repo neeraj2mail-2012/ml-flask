@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: mlflask
-        image: neeraj2mail/ml-flask:v0.0.1
+        image: neeraj2mail/ml-flask-web-app:v0.0.1
         #imagePullPolicy: Never
         ports:
         - containerPort: 8080
